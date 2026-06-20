@@ -31,7 +31,7 @@ finetuning-t5-question-answering/
 │   └── finetuning_t5_squad.ipynb         # Main notebook
 └── reports/
     ├── squad_eda.png
-    └── (training results)
+    └── training_curves.png
 ```
 
 ---
@@ -72,8 +72,8 @@ Loss is computed on the decoder outputs using teacher forcing during training, a
 
 | Metric | Value |
 |--------|-------|
-| **Exact Match (EM)** | See notebook output |
-| **F1 Score** | See notebook output |
+| **Exact Match (EM)** | 62.70% |
+| **F1 Score** | 79.53% |
 | **Training Epochs** | 3 |
 | **Max Input Length** | 512 tokens |
 | **Max Target Length** | 64 tokens |
